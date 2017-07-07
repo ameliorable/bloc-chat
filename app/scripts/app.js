@@ -12,8 +12,14 @@
               controller: 'HomeCtrl as home',
               templateUrl: '/templates/home.html'
           });
+
+          // .state('room', {
+          //   url: '/',
+          //   controller: 'RoomCtrl as room',
+          //   templateUrl: '/templates/home.html'
+          // });
     }
-// Added 'ngRoute' to dependencies to try to fix "Uncaught Error: [$injector:modulerr]"
+
     angular
         .module('blocChat', ['ui.router', 'firebase'])
         .config(config);
