@@ -1,5 +1,5 @@
-(function($uibModalInstance, Room) {
-    function ModalCtrl() {
+(function() {
+    function ModalCtrl($uibModalInstance, Room) {
       // need methods to open, close, and submit data to Firebase
       this.createRoom = function() {
         Room.add(this.newRoom);
@@ -11,6 +11,7 @@
         $uibModalInstance.dismiss('cancel');
       };
       // close and dismiss creating a new room
+    }
 
 
     angular

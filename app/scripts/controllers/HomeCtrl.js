@@ -7,7 +7,7 @@
           templateUrl: 'templates/modal.html',
           controller: 'ModalCtrl as modal'
         });
-      };
+      }
       // when the button on the home screen is clicked, the modal template will be launched
 
     }
