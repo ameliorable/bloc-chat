@@ -8,7 +8,7 @@
       // open and create new room
 
       this.cancel = function() {
-        $uibModalInstance.dismiss('cancel');
+        $uibModalInstance.close('cancel');
       };
       // close and dismiss creating a new room
     }
