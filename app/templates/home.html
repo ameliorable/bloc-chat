@@ -1,5 +1,18 @@
-<h1 class="title">Bloc Chat</h1>
-<button class="newRoomButton" type="button" ng-click="home.open()">Add a new chat room!</button>
-<ul class="room-list" ng-repeat="room in home.listRooms">
-  <li class="room-name">{{ room.name }}</li>
-</ul>
+<div class="roomsList">
+  <h1 class="title">Bloc Chat</h1>
+  <button class="newRoomButton" type="button" ng-click="home.open()">Add a new chat room!</button>
+  <ul class="room-list" ng-repeat="room in home.listRooms">
+    <li class="room-name" ng-click="home.setCurrentRoom(room)">{{ room.name }}</li>
+  </ul>
+</div>
+<div class="chatRooms">
+  <h2 class="currentRoomName">{{ home.currentRoom.name }}</h2>
+  <div class="messages" ng-repeat="message in home.messages">
+    <div class="nameandsentat">
+      <div class="username">{{ message.username }}</div>
+      <div class="sentAt">{{ message.sentAt }}</div>
+    </div>
+      <div class="content">{{ message.content }}</div>
+  </div>
+</div>
+    <!-- need to add stuff for the username, message content, and when it was sent -->

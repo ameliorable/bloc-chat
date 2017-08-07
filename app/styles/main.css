@@ -9,20 +9,49 @@ html {
   font-size: 100%;
 }
 
-.title {
-   color: #1C7355;
+body {
+  background-color: #B5EBE4;
+  color: #2053A6;
+}
+
+/*.title {
+   color: #B5EBE4;
 }
 
 .newRoomButton {
   background-color: #B5EBE4;
   color: #0C2D62;
-}
-
+}*/
+/*
 .room-list {
-  color: #2053A6;
-}
-
+  color: #B5EBE4;
+}*/
+/*
 .modalBox {
   background-color: #B5EBE4;
   color: #0C2D62;
+}*/
+
+/*.chatRooms {
+  float: left;
+}*/
+/*
+.roomsList {
+  float: left;
+  background-color: #2053A6;
+}*/
+
+/*.username {
+  font-weight: bold;
+  float: left;
+  padding-right: 30px;
 }
+
+.sentAt {
+  font-style: italic;
+  float: right;
+}
+
+.content {
+  float: left;
+}*/

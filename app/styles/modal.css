@@ -27,3 +27,17 @@
 .modalFooter {
 
 }*/
+.modalBox {
+  background-color: #B5EBE4;
+  color: #2053A6;
+}
+
+.cancelButton {
+  background-color: #2053A6;
+  color: #B5EBE4;
+}
+
+.createNewChatRoomButton {
+  background-color: #2053A6;
+  color: #B5EBE4;
+}

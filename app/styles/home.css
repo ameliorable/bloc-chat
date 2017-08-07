@@ -21,3 +21,61 @@
 .room-name {
 
 }*/
+
+.title {
+  text-align: center;
+   color: #B5EBE4;
+}
+
+.newRoomButton {
+  background-color: #B5EBE4;
+  color: #2053A6;
+  display: block;
+  margin: auto;
+}
+
+.room-list {
+  color: #B5EBE4;
+  padding-right: 30px;
+}
+
+.chatRooms {
+  float: left;
+  background-color: #B5EBE4;
+  color: #2053A6;
+  padding-left: 5px;
+}
+
+.roomsList {
+  float: left;
+  background-color: #2053A6;
+}
+
+.currentRoomName {
+  text-align: center;
+  color: #2053A6;
+  border: 5px dotted #B5EBE4;
+}
+
+.nameandsentat {
+  padding-bottom: 5px;
+}
+
+.username {
+  font-weight: bold;
+  display: inline;
+  padding-right: 5px;
+  /*float: left;
+  width: 300px;*/
+}
+
+.sentAt {
+  font-style: italic;
+  display: inline;
+  /*float: right;
+  width: 300px;*/
+}
+
+.content {
+  padding-bottom: 15px;
+}
