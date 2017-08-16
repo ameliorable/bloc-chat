@@ -14,5 +14,11 @@
     </div>
       <div class="content">{{ message.content }}</div>
   </div>
+  <div class="sendMessages" ng-show="home.currentRoom !== undefined">
+    <!-- need an input field, a button with ng submit that invokes the Message.send method -->
+    <form ng-submit="home.sendMessage()">
+    <input type="text" ng-model="home.newMessage" ng-show="home.currentRoom !== undefined"/>
+    <input type="submit" id="submit" value="Send"/>
+  </div>
 </div>
     <!-- need to add stuff for the username, message content, and when it was sent -->

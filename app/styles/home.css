@@ -34,6 +34,11 @@
   margin: auto;
 }
 
+submit {
+  background-color: #2053A6;
+  color: #B5EBE4;
+}
+
 .room-list {
   color: #B5EBE4;
   padding-right: 30px;
