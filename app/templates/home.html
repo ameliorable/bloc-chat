@@ -10,7 +10,7 @@
   <div class="messages" ng-repeat="message in home.messages">
     <div class="nameandsentat">
       <div class="username">{{ message.username }}</div>
-      <div class="sentAt">{{ message.sentAt }}</div>
+      <div class="sentAt">{{ message.sentAt | date:'MM/dd/yyyy @ h:mma' }}</div>
     </div>
       <div class="content">{{ message.content }}</div>
   </div>

@@ -19,7 +19,6 @@
       this.sendMessage = function() {
         Message.send(this.newMessage, this.currentRoom);
         this.newMessage = '';
-        console.log("hi!");
       };
 
     }
